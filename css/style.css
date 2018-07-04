@@ -77,12 +77,7 @@ header{
     width: 100%;
 
 }
-#login:only-child{
-    display: inline-block;
-}
-#previously{
-    display: none;
-}
+
 #cart {
     text-align: center;
     line-height: 2em;
