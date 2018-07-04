@@ -10,8 +10,11 @@
     <!-- CHOISIR bootstrap ou reset.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="9bitStudios-flexisel-v2.2.2-1-gf86b2ef/9bitStudios-flexisel-f86b2ef/css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
     <!-- <link rel="stylesheet" href="css/reset.css" /> -->
+
     <link rel="stylesheet" href="css/style.css" />
+
     <!-- chome line -->
     <meta name="viewport" content="width=device-width, user-scalable=no">
 </head>
@@ -93,14 +96,15 @@
                 <i class="fas fa-fire"></i>
             </a>
         </div>
+        </div>
     </header>
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-xl-2 ">
+            <div class="col-12 col-xl-2 order-3">
                 <aside id="login">
                     <div class="row">
-                            <div class="col">
+                        <div class="col">
                             Se connecter via :
                             <div class="social-buttons">
                                 <a href="#" class="btn btn-fb ">
@@ -151,6 +155,72 @@
                     <img src="" alt="image">
                     <p>description/prix</p>
                 </aside>
+            </div>
+            <div class="col-12 col-xl-2 bg-dark">
+                <div class="nav-side-menu">
+                    <div class="brand">Brand Logo</div>
+                    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+
+                        <div class="menu-list">
+
+                            <ul id="menu-content" class="menu-content collapse out">
+                                <li>
+                                  <a href="#">
+                                  <i class="fa fa-dashboard fa-lg"></i> Dashboard
+                                  </a>
+                                </li>
+
+                                <li  data-toggle="collapse" data-target="#products" class="collapsed active">
+                                  <a href="#"><i class="fa fa-gift fa-lg"></i> UI Elements <span class="arrow"></span></a>
+                                </li>
+                                <ul class="sub-menu collapse" id="products">
+                                    <li class="active"><a href="#">CSS3 Animation</a></li>
+                                    <li><a href="#">General</a></li>
+                                    <li><a href="#">Buttons</a></li>
+                                    <li><a href="#">Tabs & Accordions</a></li>
+                                    <li><a href="#">Typography</a></li>
+                                    <li><a href="#">FontAwesome</a></li>
+                                    <li><a href="#">Slider</a></li>
+                                    <li><a href="#">Panels</a></li>
+                                    <li><a href="#">Widgets</a></li>
+                                    <li><a href="#">Bootstrap Model</a></li>
+                                </ul>
+
+
+                                <li data-toggle="collapse" data-target="#service" class="collapsed">
+                                  <a href="#"><i class="fa fa-globe fa-lg"></i> Services <span class="arrow"></span></a>
+                                </li>
+                                <ul class="sub-menu collapse" id="service">
+                                  <li>New Service 1</li>
+                                  <li>New Service 2</li>
+                                  <li>New Service 3</li>
+                                </ul>
+
+
+                                <li data-toggle="collapse" data-target="#new" class="collapsed">
+                                  <a href="#"><i class="fa fa-car fa-lg"></i> New <span class="arrow"></span></a>
+                                </li>
+                                <ul class="sub-menu collapse" id="new">
+                                  <li>New New 1</li>
+                                  <li>New New 2</li>
+                                  <li>New New 3</li>
+                                </ul>
+
+
+                                 <li>
+                                  <a href="#">
+                                  <i class="fa fa-user fa-lg"></i> Profile
+                                  </a>
+                                  </li>
+
+                                 <li>
+                                  <a href="#">
+                                  <i class="fa fa-users fa-lg"></i> Users
+                                  </a>
+                                </li>
+                            </ul>
+                     </div>
+                </div>
             </div>
             <div class="col-12 col-xl-8">
                 <main>
@@ -217,73 +287,42 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
-                    </div><h2 class="bg-blue text-white p-4">Meilleures ventes</h2>
-                    <div id="carouselExampleControls" class="carousel slide bg-secondary" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <section>
+                    </div>
+                    <section id="items">
+                        <article class="bg-blue m-5">
+                            <img src="https://picsum.photos/400/600" atl="" />
+                        </article>
+                        <article class="bg-blue m-5">
+                            <img src="https://picsum.photos/200/300" atl="" />
+                        </article>
+                        <article class="bg-blue m-5">
+                            <img src="https://picsum.photos/200/300" atl="" />
+                        </article>
+                        <article class="bg-blue m-5">
+                            <img src="https://picsum.photos/200/300" atl="" />
+                        </article>
+                        <article class="bg-blue m-5">
+                            <img src="https://picsum.photos/200/300" atl="" />
+                        </article>
+                        <article class="bg-blue m-5">
+                            <img src="https://picsum.photos/400/600" atl="" />
+                        </article>
+                        <article class="bg-blue m-5">
+                            <img src="https://picsum.photos/200/300" atl="" />
+                        </article>
+                        <article class="bg-blue m-5">
+                            <img src="https://picsum.photos/200/300" atl="" />
+                        </article>
+                    </section>
 
-                                    <article>
-
-                                        <a href="#">
-                                            <img src="img/le-marius-boxer-uni-bleu-marine.jpg" alt="First slide">
-                                            <p>description et PRIX</p>
-                                        </a>
-                                    </article>
-                                    <article>
-
-                                        <a href="#">
-                                            <img src="img/le-terrible-slip-mariniere-bleu-et-blanc.jpg" alt="First">
-                                            <p>description et PRIX</p>
-                                        </a>
-                                    </article>
-                                    <article>
-                                        <a href="#">
-                                            <img src="img/le-terrible-slip-uni-bleu-marine.jpg" alt="First slide">
-                                            <p>description et PRIX</p>
-                                        </a>
-                                    </article>
-
-                                </section>
-                            </div>
-                            <div class="carousel-item">
-                                <section>
-                                    <article>
-
-                                        <a href="#">
-                                            <img src="img/le-terrible-slip-mariniere-bleu-et-blanc.jpg" alt="First">
-                                            <p>descriptdddddion et PRIX</p>
-                                        </a>
-                                    </article>
-                                    <article>
-
-                                        <a href="#">
-                                            <img src="img/le-marius-boxer-uni-bleu-marine.jpg" alt="First slide">
-                                            <p>description et PRIX</p>
-                                        </a>
-                                    </article>
-                                    <article>
-                                        <a href="#">
-                                            <img src="img/le-terrible-slip-uni-bleu-marine.jpg" alt="First slide">
-                                            <p>description et PRIX</p>
-                                        </a>
-                                    </article>
-
-                                </section>
-                            </div>
-                        </div>
                 </main>
             </div>
-            </div>
-            <div class="col-12 col-xl-2 ">
+
         </div>
     </div>
-
     <footer>
 
     </footer>
-
-    </div>
     <!-- jquery -->
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <!-- external scipt -->
