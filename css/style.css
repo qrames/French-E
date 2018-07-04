@@ -1,46 +1,61 @@
-body{
+body {}
 
-}
 @font-face {
     font-family: "title font";
     src: url("hetilica/hetilica.ttf");
 }
+
+
 }
 @font-face {
     font-family: "zen3";
     src: url("zen3/Zen3Demo.ttf");
 }
-header, main, footer {
+header,
+main,
+footer {
     max-width: 1400px;
     margin: auto;
-        text-align: center;
+    text-align: center;
 }
-
-header h1{
+header h1 {
     font-family: "title font";
     font-size: 8rem;
     color: rgb(174, 175, 174);
 }
-header h1 span{
+header h1 span {
     font-family: "title font";
     font-size: 1.4em;
 }
-header, img{
+header,
+img {
     max-width: 55%;
 }
-.blue{
-    color: blue;
+.blue {
+    color: rgb(55, 125, 255);
+    text-shadow: white 2px 2px;
 }
-.red{
-    color: red;
+.red {
+    color: rgb(216, 27, 27);
 }
-.bbr{
+.bbr {
     display: inline-block;
     height: 5px;
 }
-.bbr .blue{
+.bbr .blue {
     background-color: blue;
 }
-.bbr .red{
+.bbr .red {
     background-color: red;
+}
+.btn-tw {
+    background-color: #59b5fa;
+    color: white;
+}
+.btn-fb {
+    background-color: #496ebc;
+    color: white;
+}
+#login {
+    background-color: rgb(167, 163, 163);
 }
