@@ -1,0 +1,116 @@
+body {}
+
+@font-face {
+    font-family: "title font";
+    src: url("hetilica/hetilica.ttf");
+}
+
+
+}
+@font-face {
+    font-family: "zen3";
+    src: url("zen3/Zen3Demo.ttf");
+}
+header,
+main,
+footer {
+    margin: auto;
+    text-align: center;
+}
+header h1 {
+    font-family: "title font";
+    font-size: 8rem;
+    color: rgb(174, 175, 174);
+}
+header h1 span {
+    font-family: "title font";
+    font-size: 1.4em;
+}
+header img {
+    max-width: 20%;
+}
+header {
+    color: white;
+    font-size: 2rem;
+    background-image: url("../img/8_bit_nintendo_games_banner_by_8_bit64.gif");
+    /* background-repeat: no-repeat; */
+    
+    background-size: cover;
+    text-shadow: 0 0 30px black;
+}
+.blue {
+    color: rgb(55, 125, 255);
+}
+.red {
+    color: rgb(216, 27, 27);
+}
+.bg-blue {
+    background-color: rgb(55, 125, 255);
+}
+.bg-red {
+    background-color: rgb(216, 27, 27);
+}
+.bbr {
+    display: inline-block;
+    height: 5px;
+}
+.btn-tw {
+    background-color: #59b5fa;
+    color: white;
+}
+.btn-fb {
+    background-color: #496ebc;
+    color: white;
+}
+.btn {
+    margin: 1em 0;
+}
+.links {
+    background-color: white;
+}
+.links a {
+    font-size: 2rem;
+    line-height: 4rem;
+    padding: 0 2rem;
+}
+#login {
+    background-color: rgb(167, 163, 163);
+    width: 100%;
+}
+#login:only-child {
+    display: inline-block;
+}
+#previously {
+    display: none;
+}
+#cart {
+    text-align: center;
+    line-height: 2em;
+    font-size: 2rem;
+    color: white;
+    border-radius: 5px;
+    margin: 1em 0;
+}
+#cart-icon {}
+sup {
+    padding: 3px 6px;
+    border-radius: 50%;
+}
+.carousel-inner section {
+    display: flex;
+    flex-direction: row;
+}
+.carousel-inner a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 2rem;
+}
+.carousel-inner article {
+    flex: 1;
+}
+.carousel-inner img {
+    height: auto;
+    width: 100%;
+}
