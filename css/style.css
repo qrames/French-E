@@ -33,20 +33,19 @@ img {
 }
 .blue {
     color: rgb(55, 125, 255);
-    text-shadow: white 2px 2px;
 }
 .red {
     color: rgb(216, 27, 27);
 }
+.bg-blue {
+    background-color: rgb(55, 125, 255);
+}
+.bg-red {
+    background-color: rgb(216, 27, 27);
+}
 .bbr {
     display: inline-block;
     height: 5px;
-}
-.bbr .blue {
-    background-color: blue;
-}
-.bbr .red {
-    background-color: red;
 }
 .btn-tw {
     background-color: #59b5fa;
@@ -56,6 +55,25 @@ img {
     background-color: #496ebc;
     color: white;
 }
+.btn{
+    margin: 1em 0;
+}
 #login {
+
     background-color: rgb(167, 163, 163);
+}
+#cart{
+    width: 100%;
+    text-align: center;
+    line-height: 2em;
+    font-size: 2rem;
+    color: white;
+    border-radius: 5px;
+    margin: 1em 0;
+}
+#cart-icon{
+}
+sup {
+    padding: 3px 6px;
+    border-radius: 50%;
 }
