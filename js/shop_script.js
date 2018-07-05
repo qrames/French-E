@@ -2,11 +2,11 @@ console.log('>>>script.js');
 
 jQuery(document).ready(function($) {
 
-    function leadingItems(myProduct) {
+    function leadingItems(myProduct, index) {
         var article = $('<article>');
         article.addClass("bg-blue");
         var link = $('<a>');
-        link.attr('href', "item_index.html");
+        link.attr('href', "item_index.html?yourProduct=" + index);
         var image = $('<img>');
         var name = $('<p>');
         var price = $('<p>').addClass('price');
@@ -21,7 +21,7 @@ jQuery(document).ready(function($) {
     }
 
     for (var i = 0; i < catalog.length; i++) {
-        leadingItems(catalog[i]);
+        leadingItems(catalog[i], i);
     }
 
 });
