@@ -17,7 +17,7 @@ jQuery(document).ready(function($) {
         $(link).append(price);
         $(link).append(name);
         $(article).append(link);
-        $("#items").append(link);
+        $("#items").append(article);
     }
 
     for (var i = 0; i < catalog.length; i++) {
