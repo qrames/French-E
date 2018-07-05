@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
 
     function leadingItems(myProduct) {
         var article = $('<article>');
-        article.addClass("bg-blue m-5");
+        article.addClass("bg-blue");
         var link = $('<a>');
         link.attr('href', "item_index.html");
         var image = $('<img>');
