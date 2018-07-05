@@ -141,3 +141,23 @@ body {
   margin: 0px;
   padding: 0px;
 }
+#items{
+    display: flex;
+    flex-wrap: wrap;
+}
+#items a{
+    /* strech !!! */
+    align-items: stretch;
+    width: 25%;
+}
+#items img{
+    width: 100%;
+}
+.price{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align:middle;
+    background-color: red;
+}
