@@ -29,11 +29,12 @@ header h1 span {
 header img {
     max-width: 20%;
 }
-header{
+header {
     color: white;
     font-size: 2rem;
     background-image: url("../img/8_bit_nintendo_games_banner_by_8_bit64.gif");
     /* background-repeat: no-repeat; */
+    
     background-size: cover;
     text-shadow: 0 0 30px black;
 }
@@ -67,7 +68,7 @@ header{
 .links {
     background-color: white;
 }
-.links a{
+.links a {
     font-size: 2rem;
     line-height: 4rem;
     padding: 0 2rem;
@@ -75,9 +76,7 @@ header{
 #login {
     background-color: rgb(167, 163, 163);
     width: 100%;
-
 }
-
 #cart {
     text-align: center;
     line-height: 2em;
@@ -108,4 +107,11 @@ sup {
 .carousel-inner img {
     height: auto;
     width: 100%;
+}
+footer {
+    font-size: 10px;
+    background-color: rgb(55, 125, 255);
+    color: white;
+    font-weight: bold;
+    padding-top: 2rem;
 }
