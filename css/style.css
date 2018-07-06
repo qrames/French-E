@@ -1,4 +1,7 @@
-body {}
+body {
+    margin: 0px;
+    padding: 0px;
+}
 
 @font-face {
     font-family: "title font";
@@ -34,7 +37,7 @@ header {
     font-size: 2rem;
     background-image: url("../img/8_bit_nintendo_games_banner_by_8_bit64.gif");
     /* background-repeat: no-repeat; */
-    
+
     background-size: cover;
     text-shadow: 0 0 30px black;
 }
@@ -113,5 +116,40 @@ footer {
     background-color: rgb(55, 125, 255);
     color: white;
     font-weight: bold;
-    padding-top: 2rem;
+    padding: 2rem 0;
+}
+
+
+
+#items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#items a {
+    /* strech !!! */
+    align-items: stretch;
+    width: 25%;
+    color: rgb(253, 253, 253);
+}
+
+#items img {
+    width: 100%;
+    float: left;
+}
+
+.price {
+    text-align: center;
+    vertical-align: baseline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    background-color: rgb(255, 0, 0);
+    font-weight: bolder;
+}
+
+#items article {
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 24%;
+    height: auto;
 }

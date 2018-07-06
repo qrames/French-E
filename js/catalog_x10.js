@@ -7,7 +7,7 @@ var product0 = {
     thumb : "http://placehold.it/140x140",
     pictures : ["http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400"],
 }
-    
+
 
 var product1 = {
     name : "Produit 1",
@@ -17,7 +17,7 @@ var product1 = {
     thumb : "http://placehold.it/140x140",
     pictures : ["http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400"],
 }
-    
+
 
 var product2 = {
     name : "Produit 2",
@@ -27,7 +27,7 @@ var product2 = {
     thumb : "http://placehold.it/140x140",
     pictures : ["http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400"],
 }
-    
+
 
 var product3 = {
     name : "Produit 3",
@@ -37,7 +37,7 @@ var product3 = {
     thumb : "http://placehold.it/140x140",
     pictures : ["http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400"],
 }
-    
+
 
 var product4 = {
     name : "Produit 4",
@@ -47,7 +47,7 @@ var product4 = {
     thumb : "http://placehold.it/140x140",
     pictures : ["http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400"],
 }
-    
+
 
 var product5 = {
     name : "Produit 5",
@@ -57,7 +57,7 @@ var product5 = {
     thumb : "http://placehold.it/140x140",
     pictures : ["http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400"],
 }
-    
+
 
 var product6 = {
     name : "Produit 6",
@@ -67,7 +67,7 @@ var product6 = {
     thumb : "http://placehold.it/140x140",
     pictures : ["http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400"],
 }
-    
+
 
 var product7 = {
     name : "Produit 7",
@@ -77,7 +77,7 @@ var product7 = {
     thumb : "http://placehold.it/140x140",
     pictures : ["http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400"],
 }
-    
+
 
 var product8 = {
     name : "Produit 8",
@@ -87,7 +87,7 @@ var product8 = {
     thumb : "http://placehold.it/140x140",
     pictures : ["http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400"],
 }
-    
+
 
 var product9 = {
     name : "Produit 9",
@@ -97,5 +97,5 @@ var product9 = {
     thumb : "http://placehold.it/140x140",
     pictures : ["http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400", "http://placehold.it/400x400"],
 }
-    
-var catalog = [product0 ,product1 ,product2 ,product3 ,product4 ,product5 ,product6 ,product7 ,product8 ,product9 ,]
+
+var catalog_x10 = [product0 ,product1 ,product2 ,product3 ,product4 ,product5 ,product6 ,product7 ,product8 ,product9 ,]
