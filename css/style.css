@@ -37,7 +37,7 @@ header {
     font-size: 2rem;
     background-image: url("../img/8_bit_nintendo_games_banner_by_8_bit64.gif");
     /* background-repeat: no-repeat; */
-
+    
     background-size: cover;
     text-shadow: 0 0 30px black;
 }
@@ -84,9 +84,12 @@ header {
     text-align: center;
     line-height: 2em;
     font-size: 2rem;
-    color: white;
     border-radius: 5px;
     margin: 1em 0;
+}
+#cart a {
+    color: white;
+    text-decoration: none;
 }
 #cart-icon {}
 sup {
@@ -118,26 +121,21 @@ footer {
     font-weight: bold;
     padding: 2rem 0;
 }
-
-
-
 #items {
     display: flex;
     flex-wrap: wrap;
 }
-
 #items a {
     /* strech !!! */
+    
     align-items: stretch;
     width: 25%;
     color: rgb(253, 253, 253);
 }
-
 #items img {
     width: 100%;
     float: left;
 }
-
 .price {
     text-align: center;
     vertical-align: baseline;
@@ -146,10 +144,16 @@ footer {
     background-color: rgb(255, 0, 0);
     font-weight: bolder;
 }
-
 #items article {
     margin-right: 10px;
     margin-top: 10px;
     width: 24%;
     height: auto;
+}
+#search {
+    color: white;
+}
+#lupe {
+    color: white;
+    border-color: white;
 }

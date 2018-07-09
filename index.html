@@ -36,7 +36,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Acceuil
+                        <a class="nav-link" href="index.html">Acceuil
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
@@ -46,16 +46,10 @@
                             Boutique
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Categorie</a>
-                            <a class="dropdown-item" href="#">Categorie</a>
-                            <a class="dropdown-item" href="#">Categorie</a>
-                            <a class="dropdown-item" href="#">Categorie</a>
-                            <a class="dropdown-item" href="#">Categorie</a>
-                            <a class="dropdown-item" href="#">Categorie</a>
-                            <a class="dropdown-item" href="#">Categorie</a>
-                            <a class="dropdown-item" href="#">Categorie</a>
+                            <a class="dropdown-item" href="shop_index.html?catalog=x10">Catalogue 1</a>
+                            <a class="dropdown-item" href="shop_index.html?catalog=x100">catalogue 2</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">SCategorie</a>
+                            <a class="dropdown-item" href="shop_index.html">tout le magasin</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -63,9 +57,9 @@
                     </li>
 
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
+                <form id="search" class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <button id="lupe" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
             </div>
         </nav>
@@ -137,7 +131,10 @@
                                 </a>
                             </div>
                             <div id="cart" class="bg-blue">
-                                <a id="cart-icon"><sup class="bg-red">5</sup><i class="fas fa-shopping-cart"></i></a>
+                                <a href="cart_index.html" id="cart-icon">
+                                    <sup class="bg-red">5</sup>
+                                    <i class="fas fa-shopping-cart"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
